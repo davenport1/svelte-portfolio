@@ -1,6 +1,6 @@
 <script>
 	import Header from './Header.svelte';
-	import './styles.css';
+	import "../app.css"; // questionable... maybe go back to using styles.css
 </script>
 
 <div class="app">
