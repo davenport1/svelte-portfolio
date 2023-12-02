@@ -1,6 +1,7 @@
 <script>
-	import Header from './Header.svelte';
+	import Header from '../components/Header.svelte';
 	import "../app.css"; // questionable... maybe go back to using styles.css
+	import Footer from '../components/Footer.svelte'
 </script>
 
 <div class="app">
@@ -12,6 +13,7 @@
 
 	<footer>
 		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<Footer />
 	</footer>
 </div>
 
